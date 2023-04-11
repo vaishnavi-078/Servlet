@@ -1,1 +1,44 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION FORM</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        form{
+            text-align: center;
+            background-color: blanchedalmond;
+            width: 500px;
+            margin-right: auto;
+            margin-left: auto;
+            border: 1px solid black;
+            line-height: 20px;
+            border-radius: 20px;
+        }
+        h2{
+            text-align: center;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h2 >REGISTRATION FORM</h2>
+    <form name="student" method="post" action="indexServlet">
+        <div class="container">
+            Student name :<input type="text" name="sname" placeholder="Enter your name"><br/><br/>
+            Student ID:<input type="text" name="sid" placeholder="Enter your ID"><br/><br/>
+           	<!--Date of birth:<input type="date" name="dob" placeholder="Enter your date of birth"><br/><br/>  -->
+            Branch:<input type="text" name="branch" placeholder="Enter your branch"><br/><br/>
+            Password:<input type="password" name="pass" placeholder="Enter your password"><br/><br/>
+            Re-enter your passsword:<input type="password" name="rpass" placeholder="confrim the password"><br/>
+            <input type="submit">
+            </div>
+            </form>
+        <script>
+        
+        </script>
+             
+</body>
+</html>
